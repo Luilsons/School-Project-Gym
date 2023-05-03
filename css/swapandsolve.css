@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Open+Sans:wght@300&display=swap');
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    width: 960px;
+    margin-left: 270px;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    width: 960px;
+    margin-top: 20px;
+    margin-left: 270px;
+    border-color: black;
+    border-style: solid;
+    border-sizing: border-box;
+
+}
+
+main {
+    font-family: 'Noto Serif', serif;
+    width: 960px;
+    margin-left: 270px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 25px;
+}
+
+#footer-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    height: 100px;
+    width: 960px;
+    border-color: black;
+    border-style: solid;
+    border-sizing: border-box;
+}
+#nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 120px;
+}
+
+
+
+li:last-child{
+    padding-right: 55px;
+}
+
+
+#gym-info {
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto;
+    row-gap: 15px;
+    column-gap: 10px;
+}
+
+#page_title {
+    grid-column: 1 / 4;
+}
+
+@media only screen and (max-width: 640px) {
+    #course-grid {
+        background-color: orange;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #course-grid {
+        background-color: limegreen;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: skyblue;
+    }
+
+    header {
+        background-color: white;
+    }
+
+    footer {
+        background-color: white;
+    }
+
+    text {
+        color: black;
+    }
+}
+
+.gym_image {
+    width: 300px;
+    border-radius: 15px;
+    float: top;
+    margin-right: 130px;
+}
+
+.image_nav {
+    length: 150px;
+    width: 100px;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+
+
+
